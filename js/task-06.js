@@ -6,5 +6,6 @@ function inputVerification() {
     input.classList.add("valid");
   } else {
     input.classList.add(`invalid`);
+    input.classList.remove("valid");
   }
 }
